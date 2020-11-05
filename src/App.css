@@ -1,0 +1,42 @@
+@import './styles/counter.css';
+@import './styles/buttons.css';
+@import './styles/settings.css';
+
+:root {
+  --clr-bg: #0b3954;
+  --clr-light: #bfd7ea;
+  --clr-font: #fff;
+  --clr-white: #fefffe;
+
+  --clr-btn-inc: #3A7D44;
+  --clr-btn-inc2: #69B578;
+  --clr-btn-dec: #F45B69;
+  --clr-btn-dec2: #fa8caf;
+}
+
+.App {
+  height: 100vh;
+  background: var(--clr-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--clr-font);
+  font-family: sans-serif;
+  flex-direction: column;
+}
+
+h2 {
+  padding: 1rem;
+  transition-duration: 200ms;
+  margin: 0
+}
+
+h2:hover {
+  border-radius: 10px;
+  box-shadow: 0 0 20px var(--clr-light);
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+}

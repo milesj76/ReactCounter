@@ -1,0 +1,17 @@
+.settings-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 30vw;
+}
+
+.settings-btns {
+    justify-content: center;
+}
+
+.settings-row input {
+    height: 1rem;
+    width: 10rem;
+}
